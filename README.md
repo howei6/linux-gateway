@@ -1,11 +1,7 @@
-linux-gateway
-=============
+
 mroute.sh            double ADSL line routing balance
 
 
-#####*****######
-#hardware info:#
-#eth0,eth1,eth2#
 #####*****#####################
 use ubuntu server as a gateway#
 ###############################
@@ -29,4 +25,6 @@ use ubuntu server as a gateway#
     ifconfig ppp0
 
 2,isc-dhcp-server - ISC DHCP server for automatic IP address assignment
+
+3,for ubuntu source, just change "http://hk" to "http://uk." instead,.In this way, it would be faster.
 
